@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-size: 18px;
+  color: #333;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  outline: 1px solid #ccc;
+}
+
+#title {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  outline: 1px solid #333;
+  position: relative;
+}
+
+#title .title-box {
+  position: absolute;
+  width: 1920px;
+  height: 665px;
+  background: #ccc;
+  background-image: url(images/AKG_K240MKII_K371-BT_PROMO_OCT_2021_2800x970.jpg);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#title .container {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  flex-direction: column;
+}
+#title h2 {
+  font-size: 46px;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: block;
+  padding: 10px 40px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+}
